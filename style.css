@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 45px;
+    background-color: white;
+
+    display: flex;
+    height: 27px;
+    color: white;
+    background-color: white;
+    justify-content: left;
+    align-items: center;
+    padding-left: 270px;
+    padding-bottom: 9px;
+    padding-top: 2px;
+    gap: 10px;
+}
+
+.nav-logo {
+    height: 10px;
+    width: 100px;
+
+}
+
+.logo1 {
+    background-image: url("/images/ROG_hover.svg");
+    background-size: cover;
+    height: 20px;
+    width: 40px;
+
+
+}
+
+.logo2 {
+    background-image: url("/images/ProArt_hover.svg");
+    background-size: cover;
+    height: 20px;
+    width: 60px;
+
+
+}
+
+.logo3 {
+    background-image: url("/images/IoT_hover.svg");
+    background-size: cover;
+    height: 20px;
+    width: 100px;
+
+
+}
+
+.panel {
+    display: flex;
+    height: 55px;
+    background-color: white;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-option p {
+    display: inline;
+    margin-right: 40px;
+    gap: 15px;
+    font-size: smaller;
+
+}
+
+.asuss1 {
+    background-image: url("/images/ROG_hover.svg");
+    background-size: cover;
+    height: 20px;
+    width: 40px;
+}
+
+.hero-section {
+    background-image: url("/images/asusp3.webp");
+    background-size: cover;
+    height: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.hero-msg {
+    background-color: whitesmoke;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+
+.hero-msg a {
+    text-decoration: none;
+}
+
+.hero2-sec {
+    background-image: url("/images/asusp4.webp");
+    background-size: cover;
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hero2-msg {
+
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    font-size: 0.85rem;
+    width: 16%px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.shop-section {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.box1 {
+    background-color: #cccccc;
+    height: 500px;
+    width: 49%;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.box2 {
+    background-color: #cccccc;
+    height: 500px;
+    width: 49%;
+    background-color: white;
+
+    margin-right: 10px;
+    margin-bottom: 2px;
+
+
+}
+
+.box-img {
+
+    background-size: cover;
+    height: 500px;
+
+
+}
+
+.shop-section1 {
+
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 35px;
+
+}
+
+.shop-item {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.shop-item a {
+    font-size: 1rem;
+    color: rgb(66, 66, 237);
+    text-decoration: none;
+}
+
+.campaign-container {
+    height: 350px;
+    display: flex;
+    /* Makes children sit side-by-side */
+    justify-content: space-between;
+    /* Adds even spacing between boxes */
+
+    gap: 15px;
+    /* Gap between the images */
+    flex-wrap: wrap;
+    /* Allows boxes to stack on mobile screens */
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: whitesmoke;
+}
+
+.campaign-box {
+    flex: 1;
+    /* Makes all three boxes equal width */
+    height: 260px;
+    /* Adjust height as needed */
+    width: 80px;
+    /* Prevents boxes from getting too small */
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+
+    display: flex;
+    align-items: flex-end;
+    /* Puts text at the bottom */
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    background-color: aqua;
+}
+
+.campaign-text {
+    background: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent background for text */
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.campaign-text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: white;
+    color: black;
+}
+
+.gad-container {
+
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.gad-img {
+
+    height: 70px;
+    width: 80px;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    background-size: cover;
+}
+
+.gad-txt {
+    font-size: 0.70rem;
+    margin-top: 79px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.deal-container {
+    min-height: 1100px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    margin-top: 60px;
+
+}
+
+.deal-content {
+    margin-top: 50px;
+    background-color: white;
+    height: 800px;
+    width: 290px;
+    /* The container width */
+    display: flex;
+    flex-direction: column;
+    /* This stacks children vertically */
+    align-items: center;
+    /* Centers the image and text horizontally */
+    gap: 7px;
+    border-radius: 4%;
+    box-sizing: border-box;
+    /* Ensures padding doesn't break the width */
+}
+
+.deal-img {
+    height: 120px;
+    width: 120px;
+    /* Spans the full width of the pink box */
+
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    /* Prevents the image from squishing */
+    font-weight: 600px;
+
+}
+
+
+
+.deal-content1 h1 {
+    font-size: 1.1rem;
+    border-bottom: black;
+    width: auto;
+    /* Only as wide as the text itself */
+    max-width: 100%;
+    /* Prevents it from going outside the pink box */
+    margin-top: 10px;
+    text-align: center;
+
+
+}
+
+.deal-content1 {
+
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    /* This stacks children vertically */
+    align-items: center;
+    /* Centers the image and text horizontally */
+    gap: 10px;
+
+    box-sizing: border-box;
+    /* Ensures padding doesn't break the width */
+}
+
+.deal-content1 p {
+    margin-top: 10px;
+    font-size: 1rem;
+
+
+    /* Only as wide as the text itself */
+    width: auto;
+    /* Only as wide as the text itself */
+    max-width: 100%;
+    /* Prevents it from going outside the pink box */
+    margin-top: 10px;
+    text-align: start;
+
+    padding-left: 1%;
+}
+
+.deal-content1 p1 {
+    margin-top: 10px;
+    color: red;
+    font-size: 1.2rem;
+    width: auto;
+    /* Only as wide as the text itself */
+    max-width: 100%;
+
+    /* Only as wide as the text itself */
+
+    /* Prevents it from going outside the pink box */
+    margin-top: 2px;
+
+    display: flex;
+    justify-content: flex-start;
+
+
+
+
+}
+
+
+
+
+.deal-content ul {
+    margin-top: 5px;
+    width: 100%;
+    font-size: 1.1rem;
+    width: auto;
+    /* Only as wide as the text itself */
+    max-width: 100%;
+}
+
+.buy-btn {
+    background-color: #066ad5;
+    /* ASUS-style Blue */
+    color: white;
+    padding: 10px 24px;
+    width: 88%;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 60px;
+}
+
+/* Effect when you hover over the button */
+.buy-btn:hover {
+    background-color: #b33900;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    /* Lifts the button slightly */
+}
+
+.buy-btn1 {
+    background-color: #066ad5;
+    /* ASUS-style Blue */
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    width: 88%;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 2px;
+}
+
+/* Effect when you hover over the button */
+.buy-btn1:hover {
+    background-color: rgb(224, 43, 33);
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    /* Lifts the button slightly */
+}
+
+.deal-content:hover {
+    background-color: whitesmoke;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+    /* Lifts the button slightly */
+}
+
+.campaign-box:hover {
+    background-color: whitesmoke;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+    /* Lifts the button slightly */
+}
+
+/* Effect when you click the button */
+.buy-btn:active {
+    transform: translateY(0);
+}
+
+.buy01 {
+    margin-top: 67%;
+
+}
+
+.ship-content {
+    display: flex;
+    justify-content: space-evenly;
+
+    height: 70px;
+    gap: 80px;
+    margin-top: 36px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+
+.ship-item p2 {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.ship-item p3 {
+
+    font-size: 0.95rem;
+}
+
+.ship-content1 {
+    display: flex;
+    justify-content: space-evenly;
+
+    height: 50px;
+    width: 100%;
+    gap: 70px;
+    padding-top: 15px;
+    margin-left: 0px;
+    padding-right: 40px;
+    padding-left: 30px;
+}
+
+.ship-item1 p2 {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.last {
+
+    width: 100%;
+    height: 300px;
+}
+
+.last-cont {
+
+    padding-left: 12%;
+    height: 20px;
+    padding-top: 10px;
+
+    gap: 20px;
+}
+
+.last-cont p5 {
+    padding-top: 10px;
+}
+
+.search-wrapper {
+    padding-left: 12%;
+    height: 70px;
+
+    padding-top: 0px;
+}
+
+#searchInput {
+    width: 270px;
+    /* Change this for length */
+    height: 34px;
+    /* Change this for thickness */
+    padding: 0 1px;
+    /* Space for text inside */
+    font-size: 12px;
+    /* Size of the typing text */
+    border: 1px solid black;
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+/* The Search Button */
+.search-wrapper button {
+    height: 34px;
+    /* Match the height of the input + borders */
+    width: 72px;
+    padding: 0 1px;
+    /* Width of the button based on text */
+    font-size: 10px;
+    /* Size of "Search" text */
+    cursor: pointer;
+    background-color: #066ad5;
+    border: 1px solid black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
