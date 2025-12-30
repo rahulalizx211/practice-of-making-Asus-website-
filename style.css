@@ -45,7 +45,7 @@
 }
 
 .logo3 {
-    background-image: url("/images/IoT_hover.svg");
+    background-image: url("images/IoT_hover.svg");
     background-size: cover;
     height: 20px;
     width: 100px;
@@ -71,14 +71,14 @@
 }
 
 .asuss1 {
-    background-image: url("/images/ROG_hover.svg");
+    background-image: url("images/ROG_hover.svg");
     background-size: cover;
     height: 20px;
     width: 40px;
 }
 
 .hero-section {
-    background-image: url("/images/asusp3.webp");
+    background-image: url("images/asusp3.webp");
     background-size: cover;
     height: 550px;
 
@@ -107,7 +107,7 @@
 }
 
 .hero2-sec {
-    background-image: url("/images/asusp4.webp");
+    background-image: url("images/asusp4.webp");
     background-size: cover;
     height: 500px;
     margin-top: 20px;
